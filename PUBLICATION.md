@@ -102,6 +102,16 @@ The block under `### <version>` is sent as the Steam change note, with the versi
 (`[b]1.0.0[/b]`, `../PUBLISHING.md`); the `## [<version>]` section of `CHANGELOG.md` goes into the GitHub
 release instead.
 
+### 1.2.0
+
+```
+[b]1.2.0[/b]
+The mod name is now "Creatures of Ki: Teshi Renew", and its packageId is now nelim.creaturesofki.teshi: enable the mod again in the mod list and check its load order (before A Dog Said... Animal Prosthetics 2). No defName changed, the Workshop id is unchanged.
+The mod now declares itself incompatible with the original Creatures of Ki, which defines the same teshi: enabling both gave duplicate defName errors.
+Two small text fixes: the fertilized egg now hatches into a "teshi kit", and the French description of the unfertilized egg ends "bien, bien meilleur une fois cuit".
+No gameplay change.
+```
+
 ### 1.1.0
 
 ```
@@ -197,7 +207,7 @@ PNG, under 1 MiB; `Art/Gallery/0-preview.png` must remain byte-identical to it.
 ## Content boxes (adult content, violence)
 
 Answer **no adult content**, none to declare. Opened on 2026-09-28: the former `Art/Gallery/1-the-teshi.jpg` (one animal
-on flowers); the six images of 2026-10-06 were opened too (animals, a nest, a torch, two Health tabs with a cut claw and a bionic arm, no person shown). On 2026-10-11 `Preview.png` and the six images of the second series were opened one by one (animals, a nest and its egg, a lantern, a Health tab with a cut claw and a bionic arm; Nelim, clothed, at the animal's feet in the infirmary): no adult content. **Open any image added later immediately before the dry-run that carries it**, since the boxes commit the page.
+on flowers); the six images of 2026-10-06 were opened too (animals, a nest, a torch, two Health tabs with a cut claw and a bionic arm, no person shown). On 2026-10-11 `Preview.png` and the six images of the second series were opened one by one (animals, a nest and its egg, a lantern, a Health tab with a cut claw and a bionic arm; Nelim, clothed, at the animal's feet in the infirmary): no adult content. On 2026-11-14 `Preview.png` (the new one) and the seven subtitled images of the third series (1-the-watch to 7-the-infirmary-health-tab: animals, a lantern, a nest and its egg, Nelim clothed beside them, a Health tab with a cut claw and a bionic arm) were opened one by one: no adult content. **Open any image added later immediately before the dry-run that carries it**, since the boxes commit the page.
 
 ## Thanks
 
