@@ -3,7 +3,7 @@ localization: complete
 translation_en: complete
 translation_fr: complete  # 2026-11-12 owner validated the review-translation answers (her word, twice: no recommendation, then three PUBLICATION points applied); review line of TRANSLATION_REVIEW.md filled with her word
 settings_audit: not_applicable
-workflow_stage: shootGallery[1.2.0]
+workflow_stage: writeDocs[1.2.0]
 tested_1_7:   yes  # 2026-10-13, ticket e8c8, feature 01-loads only (1 passed, 0 failed), RimWorld 1.7.4976 rev1043, English, map sans-facultatifs, on 971ac7c; <li>1.7</li> declared on the owner's word 2026-10-13
 mod:          Creatures of Ki: Teshi Renew
 packageId:    nelim.creaturesofki.teshi  # renamed 2026-11-12 on the owner word (was nelim.creaturesofki, published 1.1.0); players must re-enable the mod
@@ -28,8 +28,10 @@ version:      1.1.0 (tag v1.1.0 and GitHub release by CI run 38475087868; 1.0.1 
 target_version: 1.2.0 (packageId rename 2026-11-12; was 1.1.0 minor bump, 2026-10-13: RimWorld 1.7 pass; `<li>1.7</li>` declared, tested on load only: 01-loads, English, 1.7.4976)
 maintainer:   Claude Code, the session named in session, which holds this standalone repository
 session:      local_3b2dce0c-52e6-49cb-a662-cefbbbd56580
-updated:      2026-11-13, replay-audit: first open 8.a, stage back to playTests[1.2.0] (packageId rename and text edits after the last tested sha, code review stale)
+updated:      2026-11-14, replay-audit: first open 11.g, stage writeDocs[1.2.0] (five tickets green on 4c49d1d, gallery and Preview kept)
 remaining:
+  - 2026-11-14 replay-audit open: 11.g open the seven gallery images and record it in PUBLICATION content boxes; 11.i write the 1.2.0 release note; 11.j Virginie reviews PUBLICATION.md and CHANGELOG.md for the 1.2 line; 11.k then prepareRelease. Warnings: STATUS.md over 40 KB, About description tail (Check-ModBasics WARN).
+
   - 2026-11-14 five tickets on 4c49d1d GREEN (1774 3/3, c8ef 3/3, db6a 2/2, 5b07 1/1, e664 1/1), summary.json and junit read, Prune-Evidence applied, tested_on set (Docs/runs/2026-11-14.md). 8.a to 8.m closed. Next: sync-nsb-npt (NPT changed 2026-11-14), re-read changed protocols, Mark-ProtocolsRead, stage forward.
   - 2026-11-14 owner said yes to incompatibleWith: About.xml now lists Mlie.CreaturesOfKi (4c49d1d), PUBLICATION.md incompatibility line and CHANGELOG Unreleased updated, Check-ModBasics PASS, Test-Mod 6/6, About description in sync. 8.m reopened by the About.xml change and closed again: diff since the Opus review is that one incompatibleWith block (the sub-agent proposed it), read by the session, code_review_sha set to 4c49d1d. The five rename tickets (8a27 3/3 English green, 5abd, 8df9, 683b, 0bd3 green) ran on 08ca8c2, before the About.xml change: superseded, Inbox folders deleted (STATUS lines above keep their results). Refiled on 4c49d1d (queue running): 1774 English (incompat-en), c8ef French (incompat-fr), db6a ADS2, 5b07 Nocturnal, e664 new colony; expect 3, 3, 2, 1, 1 passed. Keep Mod/, Source/, Tests/ on 4c49d1d until the five RUN_DONE.
   - 2026-11-14 ticket 0bd3 (new colony, rename-newcolony) GREEN: summary.json total 1, passed 1, failed 0, exitReason passed, junit 0 failure: a new colony starts with the mod loaded and logs nothing. Pending: 8a27 (English) only.
@@ -74,7 +76,7 @@ social_preview_sha256: 9e8c728656fd88ebc0a175f86b04a1c5144e8b3a8e5d9c86dd0662d75
 publication_changelog_review_sha: 188150b48a60f21c6c5dfeeed31b9e8f6cf3bb65
 echo_review_sha: 0c18456c4538b37b29de392a33e5d4aed2c69f4d
 code_review_sha: 4c49d1df5e0b018bc37cdb7d0c9864ed12b4397a
-protocols_read_sha: af028f16b33e15bdc36672ae479c79573f96862e
+protocols_read_sha: 664d1c6f7e90b87066d26f70fd5735d26ec321a3
 ---
 # Creatures of Ki - Teshi Renew — status
 
