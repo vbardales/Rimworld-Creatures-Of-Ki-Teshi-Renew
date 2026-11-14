@@ -30,6 +30,7 @@ maintainer:   Claude Code, the session named in session, which holds this standa
 session:      local_3b2dce0c-52e6-49cb-a662-cefbbbd56580
 updated:      2026-11-14, replay-audit: first open 11.g, stage writeDocs[1.2.0] (five tickets green on 4c49d1d, gallery and Preview kept)
 remaining:
+  - 2026-11-14 review-translation page 1 DONE (ChatGPT answer in): applied 1 (CHANGELOG Unreleased "A Dog Said... Animal Prosthetics 2", ellipsis), refused 0. No proper noun to decide. Check-Translations PASS, TRANSLATION_REVIEW.md regenerated. No french_review_pending line, no yellow pastille to remove.
   - 2026-11-14 writeDocs: 11.g (images opened, content boxes) and 11.i (1.2.0 release note) done; open 11.j Virginie reviews PUBLICATION.md and CHANGELOG.md for the 1.2 line, then 11.k prepareRelease. Warnings: STATUS.md over 40 KB; Check-ModBasics wants a [url] tail on the About description while sync-about-description.mjs writes plain text (script mismatch, for Audit).
 
   - 2026-11-14 five tickets on 4c49d1d GREEN (1774 3/3, c8ef 3/3, db6a 2/2, 5b07 1/1, e664 1/1), summary.json and junit read, Prune-Evidence applied, tested_on set (Docs/runs/2026-11-14.md). 8.a to 8.m closed. Next: sync-nsb-npt (NPT changed 2026-11-14), re-read changed protocols, Mark-ProtocolsRead, stage forward.
