@@ -30,6 +30,7 @@ maintainer:   Claude Code, the session named in session, which holds this standa
 session:      local_3b2dce0c-52e6-49cb-a662-cefbbbd56580
 updated:      2026-11-14, replay-audit: first open 11.g, stage writeDocs[1.2.0] (five tickets green on 4c49d1d, gallery and Preview kept)
 remaining:
+  - 2026-11-15 review-translation page 1 DONE (third answer): applied 1 (PUBLICATION.md line 6: next upload 1.2.0, was 1.1.1), refused 0. No proper noun. Check-Translations PASS, TRANSLATION_REVIEW.md regenerated. No french_review_pending line, no yellow pastille.
   - 2026-11-15 review-translation page 1 DONE (second answer): applied 1 (PUBLICATION.md header: 1.2.0 is in preparation, was 1.1.1), refused 0. No proper noun to decide. Check-Translations PASS, TRANSLATION_REVIEW.md regenerated. No french_review_pending line, no yellow pastille.
   - 2026-11-14 review-translation page 1 DONE (ChatGPT answer in): applied 1 (CHANGELOG Unreleased "A Dog Said... Animal Prosthetics 2", ellipsis), refused 0. No proper noun to decide. Check-Translations PASS, TRANSLATION_REVIEW.md regenerated. No french_review_pending line, no yellow pastille to remove.
   - 2026-11-14 writeDocs: 11.g (images opened, content boxes) and 11.i (1.2.0 release note) done; open 11.j Virginie reviews PUBLICATION.md and CHANGELOG.md for the 1.2 line, then 11.k prepareRelease. Warnings: STATUS.md over 40 KB; Check-ModBasics wants a [url] tail on the About description while sync-about-description.mjs writes plain text (script mismatch, for Audit).

@@ -3,7 +3,7 @@
 **Updated 2026-11-15. 1.1.0 was published 2026-10-14 (tag `v1.1.0` and GitHub release by CI run 38475087868, `STATUS.md`); 1.2.0 is in preparation (`STATUS.md`). 1.0.1 was published 2026-10-11 (CI run 38169426918 on `5d389b1c19c7220f9ee690d0f4f0e14acd9874aa`, tag `v1.0.1`); 1.0.0 was published 2026-10-02 (CI run 36982893195 on `49d9a726f64e5d491fb7e1b77fd438c81eb97522`, tag `v1.0.0`). The item `3806709627` is public and the thanks are posted (`STATUS.md`).** This sheet holds what the Workshop page asks for and the repository holds nowhere else, so that
 it can be used again at the next update and by whoever picks the mod up.
 
-This is an **update of an existing item** (`../PUBLISHING.md`, "Publier par la CI"): Steam holds 1.1.0, and the next upload (1.1.1)
+This is an **update of an existing item** (`../PUBLISHING.md`, "Publier par la CI"): Steam holds 1.1.0, and the next upload (1.2.0)
 replaces its content, and its Preview and description only when asked.
 
 ## Before an upload
