@@ -106,10 +106,13 @@ release instead.
 
 ```
 [b]1.2.0[/b]
-The mod name is now "Creatures of Ki: Teshi Renew", and its packageId is now nelim.creaturesofki.teshi: enable the mod again in the mod list and check its load order (before A Dog Said... Animal Prosthetics 2). No defName changed, the Workshop id is unchanged.
-The mod now declares itself incompatible with the original Creatures of Ki, which defines the same teshi: enabling both gave duplicate defName errors.
-Two small text fixes: the fertilized egg now hatches into a "teshi kit", and the French description of the unfertilized egg ends "bien, bien meilleur une fois cuit".
-No gameplay change.
+[list]
+[*] The mod is now named "Creatures of Ki: Teshi Renew" and its packageId is nelim.creaturesofki.teshi: enable the mod again in the mod list and check its load order (before A Dog Said... Animal Prosthetics 2). No defName changed, the Workshop id is unchanged.
+[*] The mod now declares itself incompatible with the original Creatures of Ki, which defines the same teshi: enabling both gave duplicate defName errors.
+[*] Two small text fixes: the fertilized egg now hatches into a "teshi kit", and the French description of the unfertilized egg ends "bien, bien meilleur une fois cuit".
+[*] No gameplay change.
+[/list]
+[url=https://github.com/vbardales/Rimworld-Creatures-Of-Ki-Teshi-Renew/blob/main/CHANGELOG.md]Full changelog[/url]
 ```
 
 ### 1.1.0

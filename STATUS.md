@@ -3,7 +3,7 @@ localization: complete
 translation_en: complete
 translation_fr: complete  # 2026-11-12 owner validated the review-translation answers (her word, twice: no recommendation, then three PUBLICATION points applied); review line of TRANSLATION_REVIEW.md filled with her word
 settings_audit: not_applicable
-workflow_stage: writeDocs[1.2.0]
+workflow_stage: writeReleaseDocs[1.2.0]
 tested_1_7:   yes  # 2026-10-13, ticket e8c8, feature 01-loads only (1 passed, 0 failed), RimWorld 1.7.4976 rev1043, English, map sans-facultatifs, on 971ac7c; <li>1.7</li> declared on the owner's word 2026-10-13
 mod:          Creatures of Ki: Teshi Renew
 packageId:    nelim.creaturesofki.teshi  # renamed 2026-11-12 on the owner word (was nelim.creaturesofki, published 1.1.0); players must re-enable the mod
@@ -28,7 +28,7 @@ version:      1.1.0 (tag v1.1.0 and GitHub release by CI run 38475087868; 1.0.1 
 target_version: 1.2.0 (packageId rename 2026-11-12; was 1.1.0 minor bump, 2026-10-13: RimWorld 1.7 pass; `<li>1.7</li>` declared, tested on load only: 01-loads, English, 1.7.4976)
 maintainer:   Claude Code, the session named in session, which holds this standalone repository
 session:      local_3b2dce0c-52e6-49cb-a662-cefbbbd56580
-updated:      2026-11-14, replay-audit: first open 11.g, stage writeDocs[1.2.0] (five tickets green on 4c49d1d, gallery and Preview kept)
+updated:      2026-11-17, resume: stage renamed writeReleaseDocs[1.2.0] (AUDIT 2026-11-16 vocabulary), 11.i Steam note now a BBCode list, protocols read to 882a30c
 remaining:
   - 2026-11-16 review-translation page 1 DONE (fourth answer): applied 1 (CHANGELOG Unreleased first bullet: dropped "packageId unchanged", contradicted by the next bullet), refused 0. No proper noun. Check-Translations PASS, TRANSLATION_REVIEW.md regenerated. No french_review_pending line, no yellow pastille.
   - 2026-11-15 review-translation page 1 DONE (third answer): applied 1 (PUBLICATION.md line 6: next upload 1.2.0, was 1.1.1), refused 0. No proper noun. Check-Translations PASS, TRANSLATION_REVIEW.md regenerated. No french_review_pending line, no yellow pastille.
@@ -80,7 +80,7 @@ social_preview_sha256: 9e8c728656fd88ebc0a175f86b04a1c5144e8b3a8e5d9c86dd0662d75
 publication_changelog_review_sha: 188150b48a60f21c6c5dfeeed31b9e8f6cf3bb65
 echo_review_sha: 0c18456c4538b37b29de392a33e5d4aed2c69f4d
 code_review_sha: 4c49d1df5e0b018bc37cdb7d0c9864ed12b4397a
-protocols_read_sha: 664d1c6f7e90b87066d26f70fd5735d26ec321a3
+protocols_read_sha: 882a30c086dbc69328319f08fef5c7779b1f298c
 ---
 # Creatures of Ki - Teshi Renew — status
 
