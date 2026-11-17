@@ -30,6 +30,7 @@ maintainer:   Claude Code, the session named in session, which holds this standa
 session:      local_3b2dce0c-52e6-49cb-a662-cefbbbd56580
 updated:      2026-11-17, replay-audit: stage writeReleaseDocs[1.2.0] unchanged, first open 11.j (owner reread of PUBLICATION.md and CHANGELOG.md)
 remaining:
+  - 2026-11-17 11.j DONE: Virginie "je valide la relecture" (her word, chat) on PUBLICATION.md and CHANGELOG.md for the 1.2 line, publication_changelog_review_sha set to 3175873. Open: 11.k (release deliverables: gameplay Pickle steps, GALLERY-PROPS entries), then 12.a to 12.h.
   - 2026-11-17 replay-audit (ledger .replays/CreaturesOfKiTeshiRenew-20261117.tsv, 103 rows: 91 done, 4 weak, 1 open, 1 ?, 10 n/a): first open 11.j [owner]: Virginie rereads PUBLICATION.md (1.2.0 block, Steam description) and CHANGELOG.md Unreleased, then publication_changelog_review_sha (line x.y moved 1.1 to 1.2). 11.k waits on it. Flags: 9.0 bis plan was scored 4 to 5 under the 2026-10-18 threshold, not 5 on every scene (rule of 2026-11-16 not retro-applied, gallery accepted 2026-11-13); ecosystem report lacks the ecosystem-links block (PiI); Check-ModBasics wants a [url] tail on the About description while sync-about-description.mjs writes plain text (Audit).
   - 2026-11-16 review-translation page 1 DONE (fourth answer): applied 1 (CHANGELOG Unreleased first bullet: dropped "packageId unchanged", contradicted by the next bullet), refused 0. No proper noun. Check-Translations PASS, TRANSLATION_REVIEW.md regenerated. No french_review_pending line, no yellow pastille.
   - 2026-11-15 review-translation page 1 DONE (third answer): applied 1 (PUBLICATION.md line 6: next upload 1.2.0, was 1.1.1), refused 0. No proper noun. Check-Translations PASS, TRANSLATION_REVIEW.md regenerated. No french_review_pending line, no yellow pastille.
@@ -78,7 +79,7 @@ remaining:
   - disclosed gaps against AUDIT.md (loop-declared stages, dispatch before lint, 1.7 declared before a green run, no `TEST_SCENARIOS.md`): in docs/runs/status-history.md, "AUDIT.md read in full, 2026-10-15".
   - unverified: gallery images on the Steam page and the thanks comment were posted by the owner (her word); no session read the page.
 social_preview_sha256: 9e8c728656fd88ebc0a175f86b04a1c5144e8b3a8e5d9c86dd0662d75f624a52
-publication_changelog_review_sha: 188150b48a60f21c6c5dfeeed31b9e8f6cf3bb65
+publication_changelog_review_sha: 317587366da9de84b12b41b51ae97f8d21f0a3ec
 echo_review_sha: 0c18456c4538b37b29de392a33e5d4aed2c69f4d
 code_review_sha: 4c49d1df5e0b018bc37cdb7d0c9864ed12b4397a
 protocols_read_sha: 882a30c086dbc69328319f08fef5c7779b1f298c
