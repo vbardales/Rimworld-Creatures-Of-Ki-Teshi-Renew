@@ -198,6 +198,8 @@ Checked in SANCTUAIRE-CASES (calm-zone block): the free-standable list for z 185
 
 ## Ecosystem
 
+2026-11-17 refresh, PiI (same report, protocols commit 8b8a75c): nine Steam queries (Creatures of Ki, Kija, Teshi, Shooki, patch, translation, retexture, Royalty, Biotech xenotype), result unchanged. Only the original 2726461020 (Creatures of Ki (Continued), 1.0 to 1.4) and the Renews carry the name. No duplicate, fork, replacement, translation, patch or retexture, so nothing to integrate at localize and no worklist row. Zoology: Realistic Animal Overhaul 3679396881 stays a load-order check (no shared defName). Report now ends with the ecosystem-links block. Nothing subscribed.
+
 2026-11-13, PiI Workshop search by Chrome (docs/inventory/ecosystem-steam/CreaturesOfKiTeshiRenew.md, protocols commit f7f2362): no duplicate, fork or replacement. Only the original 2726461020 (Mlie.CreaturesOfKi, tags 1.0 to 1.4, dead for 1.6) shares our defNames (3, expected). No other mod links, patches, retextures or translates it. Zoology: Realistic Animal Overhaul is a weak lead only (no shared defName, rebalances animal stats): test load order if wanted. Nothing subscribed. Package id of the original: Mlie.CreaturesOfKi.
 
 ## Earlier state
