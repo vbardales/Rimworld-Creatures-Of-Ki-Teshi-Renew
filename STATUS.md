@@ -3,7 +3,7 @@ localization: complete
 translation_en: complete
 translation_fr: complete  # 2026-11-12 owner validated the review-translation answers (her word, twice: no recommendation, then three PUBLICATION points applied); review line of TRANSLATION_REVIEW.md filled with her word
 settings_audit: not_applicable
-workflow_stage: startWatch[1.2.0]
+workflow_stage: runNoRegression[1.2.0]
 tested_1_7:   yes  # 2026-10-13, ticket e8c8, feature 01-loads only (1 passed, 0 failed), RimWorld 1.7.4976 rev1043, English, map sans-facultatifs, on 971ac7c; <li>1.7</li> declared on the owner's word 2026-10-13
 mod:          Creatures of Ki: Teshi Renew
 packageId:    nelim.creaturesofki.teshi  # renamed 2026-11-12 on the owner word (was nelim.creaturesofki, published 1.1.0); players must re-enable the mod
@@ -28,8 +28,9 @@ version:      1.2.0 (tag v1.2.0 and GitHub release by CI run 44073923357, 2026-1
 target_version: 1.2.0 (packageId rename 2026-11-12; was 1.1.0 minor bump, 2026-10-13: RimWorld 1.7 pass; `<li>1.7</li>` declared, tested on load only: 01-loads, English, 1.7.4976)
 maintainer:   Claude Code, the session named in session, which holds this standalone repository
 session:      local_3b2dce0c-52e6-49cb-a662-cefbbbd56580
-updated:      2026-11-17, published 1.2.0 (run 44073923357 approved by Virginie, green), stage startWatch[1.2.0]
+updated:      2026-11-17, startWatch and postOnSteam closed, stage runNoRegression[1.2.0] (14.a to file)
 remaining:
+  - 2026-11-17 14.f startWatch: GitHub repo watched (API subscription set), subscribe test done (13.b), public page read by curl (title "Creatures of Ki: Teshi Renew", description with "four fifths of a playable race" and DALL-E paragraph, repo link; change note not read). OPEN for Virginie: add the item to the collection "RimWorld through Nelim's eyes" (https://steamcommunity.com/sharedfiles/filedetails/?id=3815982565) and watch comment notifications. 14.h postOnSteam: no thank-you due (all recipients posted), Continued heads-up declined by Virginie, gallery uploaded by her. 14.a runNoRegression: full suite on the published build to file as small tickets, verdict in STATUS and Docs/runs.
   - 2026-11-17 gallery: Virginie uploaded the eight images of Art/Gallery to the Steam page by hand (her word "fait"); no session read the page, unverified. Open: postOnSteam (thanks comments, PUBLICATION.md Thanks section), public page check, runNoRegression, cleanUp.
   - 2026-11-17 13.b SUBSCRIBE-TEST done by PiI: Workshop 3806709627 downloaded after the 1.2.0 update, packageId nelim.creaturesofki.teshi, supportedVersions 1.6 1.7, PublishedFileId.txt 3806709627, folder = git archive v1.2.0 Mod (only .steamignore absent, expected), Preview.png 759045 bytes both.
   - 2026-11-17 13.a DONE: run 44073923357 green after Virginie approval (her word "fait"), tag v1.2.0 and release created by CI, PublishedFileId.txt unchanged 3806709627. Open: public page check (description, note, title, Preview) not read yet, SUBSCRIBE-TEST? sent to PiI, tell Audit the old packageId nelim.creaturesofki is retired (docs/USE_THIS_INSTEAD.md line 63 and mods-registre.tsv), gallery images uploaded by hand by Virginie (seven images)./
@@ -52,7 +53,7 @@ social_preview_sha256: 9e8c728656fd88ebc0a175f86b04a1c5144e8b3a8e5d9c86dd0662d75
 publication_changelog_review_sha: 317587366da9de84b12b41b51ae97f8d21f0a3ec
 echo_review_sha: 0c18456c4538b37b29de392a33e5d4aed2c69f4d
 code_review_sha: 4c49d1df5e0b018bc37cdb7d0c9864ed12b4397a
-protocols_read_sha: 4e59b10ff736897150c4add4758763ce030195b0
+protocols_read_sha: 3877cddbd9c609f36e095783362553c642fc1180
 ---
 # Creatures of Ki - Teshi Renew — status
 
