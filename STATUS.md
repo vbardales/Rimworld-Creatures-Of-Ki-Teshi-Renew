@@ -30,7 +30,7 @@ maintainer:   Claude Code, the session named in session, which holds this standa
 session:      local_3b2dce0c-52e6-49cb-a662-cefbbbd56580
 updated:      2026-11-17, cleanUp done, stage dormant[1.2.0]
 remaining:
-  - 14.f OPEN for Virginie only: Steam comment notifications on the Workshop page (item already in the collection "RimWorld through Nelim.s eyes", her word 2026-11-17).
+  - 14.f DONE 2026-11-17: Virginie enabled the Steam comment notifications on the Workshop page (her word "fait"); item already in the collection "RimWorld through Nelim.s eyes".
   - Unverified: the eight gallery images were uploaded by Virginie by hand (her word "fait") and the public change note was not read; no session read the Steam page images.
   - 14.c DONE 2026-11-17: STATUS.md folded into Docs/runs/status-history.md; PUBLICATION.md (change notes 1.2.0 and 1.1.0 moved to Docs/runs/publication-sent.md, declined heads-up draft deleted, header and Next update in the present), BACKLOG.md (done items dropped); TESTING.md already compressed and current, PROTOCOLS-READ.md left as is; no Art/archive. WSL: nothing removed, ADS2 3238353862 and Nocturnal 2269731409 still named by `wsl-deps` of other mods, no Workshop link for Virginie from this mod. 14.d: only main, nothing to delete; branch teshi-1.6-support on vbardales/CreaturesOfKi stays.
   - For Audit, not this mod: Check-ModBasics wants a [url] tail on the About description while sync-about-description.mjs writes plain text.
