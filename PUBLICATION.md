@@ -230,7 +230,7 @@ One main comment per recipient page for the whole collection: `../WORKSHOP_COMME
 
 The posted texts live on the Workshop pages and, retained, in `../WORKSHOP_COMMENTS.md` ("Sent texts: Creatures of Ki Teshi Renew", posted 2026-10-11 by the owner, her word); the drafts are not kept here.
 
-**1.2.0 (2026-11-17).** Thank-you comments: none due. Every recipient above is already `posted` (one thank-you per page, ever), and 1.2.0 adds no new integration. Optional note, not a thank-you (the one-per-page rule covers thank-you comments only), draft for the page of Creatures of Ki (Continued) `2726461020`, to post only if the owner wants it:
+**1.2.0 (2026-11-17).** Thank-you comments: none due. Every recipient above is already `posted` (one thank-you per page, ever), and 1.2.0 adds no new integration. Optional note, not a thank-you (the one-per-page rule covers thank-you comments only), draft for the page of Creatures of Ki (Continued) `2726461020`, NOT posted: the owner declined on 2026-11-17 ("non, pas la peine pour Continued"). Draft kept for the record:
 
 > Heads up for anyone running both: [Creatures of Ki: Teshi Renew](https://steamcommunity.com/sharedfiles/filedetails/?id=3806709627) now says it is incompatible with this one, since they share the teshi defNames and loading both gave duplicate errors. Pick one :) Thanks again for the teshi.
 
