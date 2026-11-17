@@ -3,7 +3,7 @@ localization: complete
 translation_en: complete
 translation_fr: complete  # 2026-11-12 owner validated the review-translation answers (her word, twice: no recommendation, then three PUBLICATION points applied); review line of TRANSLATION_REVIEW.md filled with her word
 settings_audit: not_applicable
-workflow_stage: runNoRegression[1.2.0]
+workflow_stage: cleanUp[1.2.0]
 tested_1_7:   yes  # 2026-10-13, ticket e8c8, feature 01-loads only (1 passed, 0 failed), RimWorld 1.7.4976 rev1043, English, map sans-facultatifs, on 971ac7c; <li>1.7</li> declared on the owner's word 2026-10-13
 mod:          Creatures of Ki: Teshi Renew
 packageId:    nelim.creaturesofki.teshi  # renamed 2026-11-12 on the owner word (was nelim.creaturesofki, published 1.1.0); players must re-enable the mod
@@ -28,7 +28,7 @@ version:      1.2.0 (tag v1.2.0 and GitHub release by CI run 44073923357, 2026-1
 target_version: 1.2.0 (packageId rename 2026-11-12; was 1.1.0 minor bump, 2026-10-13: RimWorld 1.7 pass; `<li>1.7</li>` declared, tested on load only: 01-loads, English, 1.7.4976)
 maintainer:   Claude Code, the session named in session, which holds this standalone repository
 session:      local_3b2dce0c-52e6-49cb-a662-cefbbbd56580
-updated:      2026-11-17, 14.a non-regression green 9 of 9, stage runNoRegression[1.2.0] (cleanUp left)
+updated:      2026-11-17, 14.a green 9 of 9, stage cleanUp[1.2.0] (14.c to 14.e left)
 remaining:
   - 2026-11-17 14.a DONE green: tickets 3775 and 721d merged by the launcher into one run (Inbox/nonreg-fast, 721d reported as nonreg-slow, folder absent), set sans-facultatifs, exit 0, summary.json total 9 passed 9 failed 0 skipped 0 (filters merged: 01, 02, 03, 04, 05, so 9 scenarios, not 4 plus 1), on the published Mod tree (last Mod/Source commit 4c49d1d). Minified to Tests/Pickle/Evidence/nonreg-fast with RELEASE.md; Prune-Evidence -Apply removed the stale 2026-10-14-nonreg-english-fast. Not replayed on purpose: 06 to 10 (green 2026-11-14 on 4c49d1d), gallery features 11 to 14. Open: cleanUp.
   - 2026-11-17 14.a non-regression filed on a34cdba (Mod, Source and Tests unchanged since 4c49d1d, published 4feab2a): 3775 English fast (01-loads, 02-draws, 04-desiccated-corpse, 05-save-reload; Inbox/nonreg-fast) and 721d English laying and hatching (03; Inbox/nonreg-slow), map sans-facultatifs. Not replayed on purpose: 06, 07, 08, 09, 10 (green 2026-11-14 on 4c49d1d, same Mod tree), gallery features 11 to 14 (presentation). Keep Mod/, Source/, Tests/ unchanged until RUN_DONE. At each: summary.json total (expect 4 and 1), exitReason passed, junit, then Prune-Evidence.
@@ -55,7 +55,7 @@ social_preview_sha256: 9e8c728656fd88ebc0a175f86b04a1c5144e8b3a8e5d9c86dd0662d75
 publication_changelog_review_sha: 317587366da9de84b12b41b51ae97f8d21f0a3ec
 echo_review_sha: 0c18456c4538b37b29de392a33e5d4aed2c69f4d
 code_review_sha: 4c49d1df5e0b018bc37cdb7d0c9864ed12b4397a
-protocols_read_sha: 763614289c57f2fcfac6495b7847b8463c26cef1
+protocols_read_sha: 58735a1243547fea62b257b4fe2aed571e5b5bec
 ---
 # Creatures of Ki - Teshi Renew — status
 
