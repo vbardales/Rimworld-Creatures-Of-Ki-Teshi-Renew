@@ -1,9 +1,9 @@
 # Publication sheet
 
-**Updated 2026-11-15. 1.1.0 was published 2026-10-14 (tag `v1.1.0` and GitHub release by CI run 38475087868, `STATUS.md`); 1.2.0 is in preparation (`STATUS.md`). 1.0.1 was published 2026-10-11 (CI run 38169426918 on `5d389b1c19c7220f9ee690d0f4f0e14acd9874aa`, tag `v1.0.1`); 1.0.0 was published 2026-10-02 (CI run 36982893195 on `49d9a726f64e5d491fb7e1b77fd438c81eb97522`, tag `v1.0.0`). The item `3806709627` is public and the thanks are posted (`STATUS.md`).** This sheet holds what the Workshop page asks for and the repository holds nowhere else, so that
+**Updated 2026-11-17. 1.2.0 is published (tag `v1.2.0` and GitHub release by CI run 44073923357, 2026-11-17, `STATUS.md`); earlier versions 1.1.0, 1.0.1, 1.0.0: `Docs/runs/publication-sent.md`. The item `3806709627` is public and the thanks are posted (`STATUS.md`).** This sheet holds what the Workshop page asks for and the repository holds nowhere else, so that
 it can be used again at the next update and by whoever picks the mod up.
 
-This is an **update of an existing item** (`../PUBLISHING.md`, "Publier par la CI"): Steam holds 1.1.0, and the next upload (1.2.0)
+This is an **update of an existing item** (`../PUBLISHING.md`, "Publier par la CI"): Steam holds 1.2.0, and the next upload
 replaces its content, and its Preview and description only when asked.
 
 ## Before an upload
@@ -102,28 +102,7 @@ The block under `### <version>` is sent as the Steam change note, with the versi
 (`[b]1.0.0[/b]`, `../PUBLISHING.md`); the `## [<version>]` section of `CHANGELOG.md` goes into the GitHub
 release instead.
 
-### 1.2.0
-
-```
-[b]1.2.0[/b]
-[list]
-[*] The mod is now named "Creatures of Ki: Teshi Renew" and its packageId is nelim.creaturesofki.teshi: enable the mod again in the mod list and check its load order (before A Dog Said... Animal Prosthetics 2). No defName changed, the Workshop id is unchanged.
-[*] The mod now declares itself incompatible with the original Creatures of Ki, which defines the same teshi: enabling both gave duplicate defName errors.
-[*] Two small text fixes: the fertilized egg now hatches into a "teshi kit", and the French description of the unfertilized egg ends "bien, bien meilleur une fois cuit".
-[*] No gameplay change.
-[/list]
-[url=https://github.com/vbardales/Rimworld-Creatures-Of-Ki-Teshi-Renew/blob/main/CHANGELOG.md]Full changelog[/url]
-```
-
-### 1.1.0
-
-```
-[b]1.1.0[/b]
-Declares RimWorld 1.7 support: the mod loads on RimWorld 1.7 without a warning or an error (checked in English; the
-other tests were played on RimWorld 1.6). The Workshop preview badge now reads 1.7. No gameplay change.
-```
-
-Notes of earlier versions (1.0.1, 1.0.0, as sent): `docs/runs/publication-sent.md`.
+Notes of the versions already sent (1.2.0, 1.1.0, 1.0.1, 1.0.0, as sent): `Docs/runs/publication-sent.md`. Write the next version's block here as `### <version>` before its upload.
 
 ## Dependencies and DLC
 
@@ -230,15 +209,13 @@ One main comment per recipient page for the whole collection: `../WORKSHOP_COMME
 
 The posted texts live on the Workshop pages and, retained, in `../WORKSHOP_COMMENTS.md` ("Sent texts: Creatures of Ki Teshi Renew", posted 2026-10-11 by the owner, her word); the drafts are not kept here.
 
-**1.2.0 (2026-11-17).** Thank-you comments: none due. Every recipient above is already `posted` (one thank-you per page, ever), and 1.2.0 adds no new integration. Optional note, not a thank-you (the one-per-page rule covers thank-you comments only), draft for the page of Creatures of Ki (Continued) `2726461020`, NOT posted: the owner declined on 2026-11-17 ("non, pas la peine pour Continued"). Draft kept for the record:
-
-> Heads up for anyone running both: [Creatures of Ki: Teshi Renew](https://steamcommunity.com/sharedfiles/filedetails/?id=3806709627) now says it is incompatible with this one, since they share the teshi defNames and loading both gave duplicate errors. Pick one :) Thanks again for the teshi.
+**1.2.0 (2026-11-17).** Thank-you comments: none due, every recipient above is already `posted` and 1.2.0 adds no new integration. The optional heads-up for the page of Creatures of Ki (Continued) `2726461020` was declined by the owner on 2026-11-17; its draft was deleted.
 
 ## Next update
 
-The CI never sends the visibility or the title. A new publication needs a new version (1.0.1+) on a new commit, its
+The CI never sends the visibility or the title. A new publication needs a new version (above 1.2.0) on a new commit, its
 own dry-run, and `update_preview` / `update_description` turned on only when the Preview or this description changed. The
-Preview in the repository (`e8b3a89`) differs from the published one: see `STATUS.md`.
+Preview in the repository is the one published with 1.2.0.
 
 ## Use This Instead comment
 

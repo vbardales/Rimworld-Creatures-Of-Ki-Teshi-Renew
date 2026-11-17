@@ -26,3 +26,27 @@ Register: `USE_THIS_INSTEAD.md`, row 2726461020. The item is public (3806709627)
 ```
 A replacement for [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2726461020]Creatures of Ki (Continued)[/url] (Shooki, Mlie; packageId Mlie.CreaturesOfKi; RimWorld 1.0 to 1.4): [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3806709627]Creatures of Ki: Teshi Renew[/url] (Nelim; packageId nelim.creaturesofki), for the latest RimWorld version. It keeps only the teshi. Thank you for keeping this list :)
 ```
+
+## Change notes sent with 1.2.0 and 1.1.0 (moved from PUBLICATION.md, 2026-11-17)
+
+### 1.2.0
+
+```
+[b]1.2.0[/b]
+[list]
+[*] The mod is now named "Creatures of Ki: Teshi Renew" and its packageId is nelim.creaturesofki.teshi: enable the mod again in the mod list and check its load order (before A Dog Said... Animal Prosthetics 2). No defName changed, the Workshop id is unchanged.
+[*] The mod now declares itself incompatible with the original Creatures of Ki, which defines the same teshi: enabling both gave duplicate defName errors.
+[*] Two small text fixes: the fertilized egg now hatches into a "teshi kit", and the French description of the unfertilized egg ends "bien, bien meilleur une fois cuit".
+[*] No gameplay change.
+[/list]
+[url=https://github.com/vbardales/Rimworld-Creatures-Of-Ki-Teshi-Renew/blob/main/CHANGELOG.md]Full changelog[/url]
+```
+
+### 1.1.0
+
+```
+[b]1.1.0[/b]
+Declares RimWorld 1.7 support: the mod loads on RimWorld 1.7 without a warning or an error (checked in English; the
+other tests were played on RimWorld 1.6). The Workshop preview badge now reads 1.7. No gameplay change.
+```
+

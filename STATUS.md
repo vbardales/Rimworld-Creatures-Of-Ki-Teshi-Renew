@@ -3,7 +3,7 @@ localization: complete
 translation_en: complete
 translation_fr: complete  # 2026-11-12 owner validated the review-translation answers (her word, twice: no recommendation, then three PUBLICATION points applied); review line of TRANSLATION_REVIEW.md filled with her word
 settings_audit: not_applicable
-workflow_stage: cleanUp[1.2.0]
+workflow_stage: dormant[1.2.0]
 tested_1_7:   yes  # 2026-10-13, ticket e8c8, feature 01-loads only (1 passed, 0 failed), RimWorld 1.7.4976 rev1043, English, map sans-facultatifs, on 971ac7c; <li>1.7</li> declared on the owner's word 2026-10-13
 mod:          Creatures of Ki: Teshi Renew
 packageId:    nelim.creaturesofki.teshi  # renamed 2026-11-12 on the owner word (was nelim.creaturesofki, published 1.1.0); players must re-enable the mod
@@ -28,18 +28,18 @@ version:      1.2.0 (tag v1.2.0 and GitHub release by CI run 44073923357, 2026-1
 target_version: 1.2.0 (packageId rename 2026-11-12; was 1.1.0 minor bump, 2026-10-13: RimWorld 1.7 pass; `<li>1.7</li>` declared, tested on load only: 01-loads, English, 1.7.4976)
 maintainer:   Claude Code, the session named in session, which holds this standalone repository
 session:      local_3b2dce0c-52e6-49cb-a662-cefbbbd56580
-updated:      2026-11-17, 14.a green 9 of 9, stage cleanUp[1.2.0] (14.c to 14.e left)
+updated:      2026-11-17, cleanUp done, stage dormant[1.2.0]
 remaining:
   - 14.f OPEN for Virginie only: Steam comment notifications on the Workshop page (item already in the collection "RimWorld through Nelim.s eyes", her word 2026-11-17).
   - Unverified: the eight gallery images were uploaded by Virginie by hand (her word "fait") and the public change note was not read; no session read the Steam page images.
-  - 14.c open: Docs cleanup (TESTING.md, PUBLICATION.md, BACKLOG.md, PROTOCOLS-READ.md, Art/archive) and WSL Workshop mods of this mod's passes (ADS2 3238353862 and Nocturnal 2269731409 are still named by `wsl-deps` of other mods: they stay; list to Virginie, she unsubscribes herself). 14.d: only `main` here, nothing to delete; branch teshi-1.6-support on vbardales/CreaturesOfKi stays (upstream PR refused). 14.e then `dormant[1.2.0]`.
+  - 14.c DONE 2026-11-17: STATUS.md folded into Docs/runs/status-history.md; PUBLICATION.md (change notes 1.2.0 and 1.1.0 moved to Docs/runs/publication-sent.md, declined heads-up draft deleted, header and Next update in the present), BACKLOG.md (done items dropped); TESTING.md already compressed and current, PROTOCOLS-READ.md left as is; no Art/archive. WSL: nothing removed, ADS2 3238353862 and Nocturnal 2269731409 still named by `wsl-deps` of other mods, no Workshop link for Virginie from this mod. 14.d: only main, nothing to delete; branch teshi-1.6-support on vbardales/CreaturesOfKi stays.
   - For Audit, not this mod: Check-ModBasics wants a [url] tail on the About description while sync-about-description.mjs writes plain text.
   - History of 2026-10 to 2026-11-17 (14.a green 9 of 9 on 2026-11-17, publish run 44073923357, replay-audit, review-translation, gallery v26, 1.1.0): docs/runs/status-history.md, section "Folded from STATUS.md, 2026-11-17".
 social_preview_sha256: 9e8c728656fd88ebc0a175f86b04a1c5144e8b3a8e5d9c86dd0662d75f624a52
 publication_changelog_review_sha: 317587366da9de84b12b41b51ae97f8d21f0a3ec
 echo_review_sha: 0c18456c4538b37b29de392a33e5d4aed2c69f4d
 code_review_sha: 4c49d1df5e0b018bc37cdb7d0c9864ed12b4397a
-protocols_read_sha: 58735a1243547fea62b257b4fe2aed571e5b5bec
+protocols_read_sha: f02fd1d74e36b6e471861bd056a0a628e1caf396
 ---
 # Creatures of Ki - Teshi Renew — status
 
