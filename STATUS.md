@@ -3,7 +3,7 @@ localization: complete
 translation_en: complete
 translation_fr: complete  # 2026-11-12 owner validated the review-translation answers (her word, twice: no recommendation, then three PUBLICATION points applied); review line of TRANSLATION_REVIEW.md filled with her word
 settings_audit: not_applicable
-workflow_stage: publish[1.2.0]
+workflow_stage: startWatch[1.2.0]
 tested_1_7:   yes  # 2026-10-13, ticket e8c8, feature 01-loads only (1 passed, 0 failed), RimWorld 1.7.4976 rev1043, English, map sans-facultatifs, on 971ac7c; <li>1.7</li> declared on the owner's word 2026-10-13
 mod:          Creatures of Ki: Teshi Renew
 packageId:    nelim.creaturesofki.teshi  # renamed 2026-11-12 on the owner word (was nelim.creaturesofki, published 1.1.0); players must re-enable the mod
@@ -24,12 +24,13 @@ dependencies: none
 showcase:     complete
 tested_on:     2026-11-14 pickle 4c49d1d, English and French labels, ADS2, Nocturnal, new colony, 10 passed of 10 (Docs/runs/2026-11-14.md); the full suite of 2026-09-26 and 2026-10-02 on 1fcc51f/49d9a72 stands; published 2026-10-02 at 49d9a726f64e5d491fb7
 workshop:     3806709627
-version:      1.1.0 (tag v1.1.0 and GitHub release by CI run 38475087868; 1.0.1 was tag v1.0.1)
+version:      1.2.0 (tag v1.2.0 and GitHub release by CI run 44073923357, 2026-11-17 11:35 UTC; 1.1.0 was tag v1.1.0)
 target_version: 1.2.0 (packageId rename 2026-11-12; was 1.1.0 minor bump, 2026-10-13: RimWorld 1.7 pass; `<li>1.7</li>` declared, tested on load only: 01-loads, English, 1.7.4976)
 maintainer:   Claude Code, the session named in session, which holds this standalone repository
 session:      local_3b2dce0c-52e6-49cb-a662-cefbbbd56580
-updated:      2026-11-17, stage publish[1.2.0] (12.h): dry-run 44072491299 green on 4feab2a, publish dispatched next, Virginie approves on steam-production
+updated:      2026-11-17, published 1.2.0 (run 44073923357 approved by Virginie, green), stage startWatch[1.2.0]
 remaining:
+  - 2026-11-17 13.a DONE: run 44073923357 green after Virginie approval (her word "fait"), tag v1.2.0 and release created by CI, PublishedFileId.txt unchanged 3806709627. Open: public page check (description, note, title, Preview) not read yet, SUBSCRIBE-TEST? sent to PiI, tell Audit the old packageId nelim.creaturesofki is retired (docs/USE_THIS_INSTEAD.md line 63 and mods-registre.tsv), gallery images uploaded by hand by Virginie (seven images)./
   - 2026-11-17 13.a: publish run 44073923357 dispatched on 4feab2a257d7e6723d6ad396f7146eab2fca793c, version 1.2.0, options preview, description, title (same as the dry-run 44072491299). Waits for Virginie on steam-production (https://github.com/vbardales/Rimworld-Creatures-Of-Ki-Teshi-Renew/actions/runs/44073923357). After success: check the tag v1.2.0 and release, the public page (description, note, title, Preview), PublishedFileId.txt unchanged (3806709627), SUBSCRIBE-TEST? to PiI, tell Audit the old packageId is retired, gallery images by hand.
   - 2026-11-17 12.c bis DONE: caveman-compress on TESTING.md, BACKLOG.md, Docs/GALLERY-V2.md (backticks, URLs, shas, versions diffed against the backups: nothing lost). Failed after retries: Docs/PROTOCOLS-READ.md, Tests/Pickle/README.md (left as is). Not compressed on purpose: STATUS.md (status part), Docs/PROMPT_*.md (image prompt), review-names.md and review-refusals.md (sent to ChatGPT).
   - 2026-11-17 11.j DONE: Virginie "je valide la relecture" (her word, chat) on PUBLICATION.md and CHANGELOG.md for the 1.2 line, publication_changelog_review_sha set to 3175873. 11.k DONE: 9a gameplay steps = Tests/Pickle/Source/TeshiSteps.cs (spawn, tame, lay, hatch, lie down), 9b n/a (the mod adds an animal, no prop or apparel for other galleries; GALLERY-PROPS.md only lists Teshi Renew as a user). Open: 12.a to 12.h (12.c bis caveman compress of Docs, 12.e dry-run date and CI are the next gestures, publish stays the owner call).
@@ -49,7 +50,7 @@ social_preview_sha256: 9e8c728656fd88ebc0a175f86b04a1c5144e8b3a8e5d9c86dd0662d75
 publication_changelog_review_sha: 317587366da9de84b12b41b51ae97f8d21f0a3ec
 echo_review_sha: 0c18456c4538b37b29de392a33e5d4aed2c69f4d
 code_review_sha: 4c49d1df5e0b018bc37cdb7d0c9864ed12b4397a
-protocols_read_sha: 3e1f8dff18f7e4658931e5ad0ff66f0bc8eed6bb
+protocols_read_sha: 4e59b10ff736897150c4add4758763ce030195b0
 ---
 # Creatures of Ki - Teshi Renew — status
 
