@@ -1,0 +1,2 @@
+- 2026-11-14, rename and incompatibleWith, five tickets on `4c49d1d`: `1774` English (01-loads, 06-labels-en) 3/3; `c8ef` French (01-loads, 07-labels-fr) 3/3; `db6a` ADS2 (08) 2/2; `5b07` Nocturnal (10) 1/1; `e664` new colony (09) 1/1. failed 0, skipped 0. Proofs in `Tests/Pickle/Evidence/incompat-*`, each with `RELEASE.md`.
+- 2026-11-17, non-regression 14.a, 9 of 9 on the published Mod tree (`Tests/Pickle/Evidence/nonreg-fast`, `RELEASE.md`); publish run 44073923357.
