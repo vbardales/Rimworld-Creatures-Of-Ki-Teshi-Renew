@@ -39,7 +39,7 @@ social_preview_sha256: 9e8c728656fd88ebc0a175f86b04a1c5144e8b3a8e5d9c86dd0662d75
 publication_changelog_review_sha: 317587366da9de84b12b41b51ae97f8d21f0a3ec
 echo_review_sha: 0c18456c4538b37b29de392a33e5d4aed2c69f4d
 code_review_sha: 4c49d1df5e0b018bc37cdb7d0c9864ed12b4397a
-protocols_read_sha: d4d9358c61723fa9b658201b61648bb857a3a462
+protocols_read_sha: 45fe675796d2688b18b086e6d64b337ad98a648e
 ---
 # Creatures of Ki - Teshi Renew — status
 
