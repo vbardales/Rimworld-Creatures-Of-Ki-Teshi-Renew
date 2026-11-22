@@ -29,9 +29,10 @@ target_version: 1.2.0 (packageId rename 2026-11-12; was 1.1.0 minor bump, 2026-1
 maintainer:   Claude Code, the session named in session, which holds this standalone repository
 session:      local_3b2dce0c-52e6-49cb-a662-cefbbbd56580
 updated:      2026-11-22, replay-audit: back to shootGallery[1.2.0] (9.f), ecosystem_line fixed in place
+gallery_validated_sha: 2898e95b69d6afe5f57cc63765548377bcfbdb1a  # 2026-11-22 oui de Virginie
 ecosystem_line: 1.2  # 2026-11-22 fixed in place by replay-audit: PiI refresh 2026-11-17 (docs/inventory/ecosystem-steam/CreaturesOfKiTeshiRenew.md, ecosystem-links block) was done during the 1.2.0 work
 remaining:
-  - 9.f open (replay-audit 2026-11-22): `gallery_validated_sha` absent. Gallery of eight images (Art/Gallery, hash 2898e95b69d6afe5f57cc63765548377bcfbdb1a at this date) was accepted 2026-11-13 under the older rule; the 2026-11-20 rule asks Virginie's explicit oui in the session chat, then the field. Sub-steps 10 to 14 not replayed.
+  - Replay 2026-11-22 after Virginie's oui on the gallery (9.f done, `gallery_validated_sha` written): first open sub-step is 10.a bis (`preview_source_decision` absent: keep or redo the Preview illustration, her own answer, separate from the echo). Target stage `mountPreview[1.2.0]`, NOT yet written (ledger `../.replays/CreaturesOfKiTeshiRenew-20261122.tsv` holds rows 1.a to 10.a bis; `Check-Replay.ps1` wants rows to 14.j even with the open row in section 10: read its stop rule, lines 95-125 of scripts/Check-Replay.ps1, or rerun the replay skill). Next: write the stage with `Mark-ProtocolsRead`, then ask her the two questions of 10.a bis (echo kept or redone, then the Preview illustration kept or redone).
   - Flag 9.0 bis: plan scored 4 or more (score-gallery 2026-11-12), not 5 on every scene (rule of 2026-11-16 not retro-applied).
   - Weak proofs, 14.c folding removed the STATUS text: 4.f (animal integrations), 5.g (settings audit text), 8.d, 8.j, 8.k, 9.d; the text is in git history of STATUS.md and of Docs/runs/status-history.md (9ca99fc^).
   - 14.f DONE 2026-11-17: Virginie enabled the Steam comment notifications on the Workshop page (her word "fait"); item already in the collection "RimWorld through Nelim.s eyes".
